@@ -22,6 +22,18 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSLog(@"1234567890");
+
+
+    NSLog(@"1234567890");
+
+
+    NSLog(@"1234567890");
+    NSLog(@"1234567890");
+    NSLog(@"1234567890");
+    NSLog(@"1234567890");
+    NSLog(@"1234567890");
+
+
     //selfNav
     navView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, 64)];
     navView.backgroundColor = [UIColor orangeColor];
@@ -35,7 +47,9 @@
     //添加监听者
 
     [_tableView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
-    
+    NSLog(@"1234567890");
+    NSLog(@"1234567890");
+
 
 }
 
