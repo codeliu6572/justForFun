@@ -36,12 +36,7 @@
 
     [_tableView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
     
-    
-    for (CALayer *layer in self.view.layer.sublayers) {
-        NSLog(@"%@",layer);
-        [layer   removeFromSuperlayer];
-    }
-    
+
 }
 
 /**
